@@ -2,20 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.gray_icon {
+  color: gray_text;
+  font-size: medium;
+  font-weight: bold
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.title-h{
+  margin: 0;
+  font-size: 45px;
+  letter-spacing: -3px;
+  margin-right: 50px;
+  margin-top: -5px;
+  color: text_dark;
+}
+
+
+@layer base {
+
+  .title_h {
+    @apply text-text_dark text-5xl font-bold tracking-tighter
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .title {
+    @apply text-gray_text text-sm
+  }
+
+  .headText {
+    @apply text-text_dark font-bold
+  }
+
+  .flex-global-between {
+    @apply flex items-center justify-between;
+  }
+  }
+
