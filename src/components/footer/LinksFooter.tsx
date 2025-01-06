@@ -4,7 +4,7 @@ import { ContactInfo, CustomerCare, FindItFast } from '../optimized';
 
 const LinksFooter = () => {
   return (
-    <div className='px-20 flex justify-between'>
+    <div className='px-20 lg:flex-global-between hidden gap-4'>
       <ContactInfo />
       <FindItFast />
       <CustomerCare />

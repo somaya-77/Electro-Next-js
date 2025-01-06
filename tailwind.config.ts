@@ -22,12 +22,18 @@ export default {
         red:"#dc3545",
         black:"#36414b",
         text_dark: "#333e48",
+        dark_opacity: "#48525bba",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+				'accordion-down': 'accordion-down 0.2s ease-out',
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'caret-blink': 'caret-blink 1.25s ease-out infinite'
+			},
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
   corePlugins: {
     fill: true, 
   },

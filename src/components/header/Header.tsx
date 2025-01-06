@@ -1,14 +1,25 @@
+'use client'
 import Link from 'next/link'
 import Navbar from './Navbar'
 import TopHeader from './TopHeader'
+import useResponsive from '@/hook/useResponsive';
+import MobHeader from './MobHeader';
+import SubHeader from './SubHeader';
 
 const Header = () => {
-    return (
-        <header>
+    const { xs } = useResponsive();
+    return xs ?
+        <MobHeader />
+        :
+        (<div className='flex flex-col gap-6 bg-primary'>
             <TopHeader />
             <Navbar />
-        </header>
-    )
+            
+           
+            <SubHeader />
+            
+        </div>)
+
 }
 
 export default Header

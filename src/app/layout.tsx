@@ -1,10 +1,13 @@
+
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
-const kufiArabic = Inter({subsets: ['latin'], weight: ['300', '500']})
+
+const kufiArabic = Inter({ subsets: ['latin'], weight: ['300', '500'] })
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,6 +19,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body

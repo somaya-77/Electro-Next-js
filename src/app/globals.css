@@ -17,6 +17,20 @@
   color: text_dark;
 }
 
+.bg {
+  background-image: url('/assets/images/HomeV3ProductBackground.webp');
+}
+
+.sha {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+}
+
+.btn{
+  border-top-right-radius: 20px;
+  background-color: text_dark;
+  color: white;
+}
 
 @layer base {
 
@@ -35,5 +49,46 @@
   .flex-global-between {
     @apply flex items-center justify-between;
   }
+
+  .flex_col{
+    @apply flex flex-col gap-2
   }
+  
+  .flex_center{
+    @apply flex  items-center justify-center
+  }
+  .col-center{
+    @apply flex flex-col items-center justify-center
+  }
+
+  .shadow {
+    @apply shadow-[0px_54px_55px_rgba(0,0,0,0.25),0px_-12px_30px_rgba(0,0,0,0.12),0px_4px_6px_rgba(0,0,0,0.12),0px_12px_13px_rgba(0,0,0,0.17),0px_-3px_5px_rgba(0,0,0,0.09)] transition-shadow duration-300
+  }
+
+  .grid-2-column {
+    @apply grid grid-cols-1 lg:grid-cols-2 
+  }
+
+  .grid-3-column {
+    @apply grid grid-cols-1 lg:grid-cols-3
+  }
+  .input-btn{
+    @apply flex items-start;
+  }
+
+  .input-rounded {
+    @apply bg-white border-none rounded-none rounded-l-2xl text-text_dark px-7 text-sm !important;
+  }
+
+  .btn {
+    @apply bg-text_dark text-white rounded-r-2xl rounded-l-none px-6 py-4   !important;
+  }
+
+  .btn_link {
+    @apply bg-transparent shadow-none text-text_dark font-bold  !important;
+  }
+}
+
+
+
 
