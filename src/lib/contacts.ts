@@ -9,10 +9,6 @@ import { MdOutlinePayment } from "react-icons/md";
 
 import { FaFacebook, FaWhatsapp, FaPinterest, FaLinkedin, FaInstagram, FaYoutube, FaWifi } from "react-icons/fa";
 
-
-import { LiaShoppingBagSolid } from "react-icons/lia";
-
-
 export const linksHeader = [
     { title: "Store Locator", Icon: IoLocationOutline, path: '' },
     { title: "Track Your Order", Icon: LiaShippingFastSolid, path: '' },

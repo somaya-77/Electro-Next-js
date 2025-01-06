@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React from 'react'
 import { BiCartDownload } from "react-icons/bi";
-import ControlCard from './ControlCard';
 
 interface props {
     categories: string[];

@@ -1,8 +1,8 @@
-import { FormFieldEnum } from "@/components/form/CustomForm";
-import { Control } from "react-hook-form";
+// import { FormFieldEnum } from "@/components/form/CustomForm";
+// import { Control } from "react-hook-form";
 
 export interface CustomProps {
-    control?: Control<any>;
+    // control?: Control<any>;
     name: string;
     label?: string;
     placeholder?: string;
@@ -13,8 +13,8 @@ export interface CustomProps {
     dateFormat?: string;
     showTimeSelect?: boolean;
     children?: React.ReactNode;
-    renderSkeleton?: (field: any) => React.ReactNode;
-    fieldType: FormFieldEnum;
+    // renderSkeleton?: (field: any) => React.ReactNode;
+    // fieldType: FormFieldEnum;
 }
 
 export interface SubmitBtnProps {

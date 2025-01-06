@@ -21,9 +21,9 @@ function AutoPlay() {
             <Slider {...settings}>
                 {companies.map((el, i) => (
 
-                    <img key={i} src={el.img} alt={el.alt}  className="px-10 cursor-pointer"/>
+                    <Image key={i} src={el.img} alt={el.alt} width={100} height={30} className="px-10 cursor-pointer"/>
                 ))}
-               
+
             </Slider>
         </div>
     );

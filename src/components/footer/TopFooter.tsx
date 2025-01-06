@@ -1,5 +1,5 @@
 import { BsSend } from "react-icons/bs";
-import InputButton from "../form/InputButton";
+// import InputButton from "../form/InputButton";
 
 export default function TopFooter() {
   return (
@@ -16,9 +16,9 @@ export default function TopFooter() {
         </div>
       </div>
 
-      <div className="w-[45%]">
+      {/* <div className="w-[45%]">
         <InputButton />
-      </div>
+      </div> */}
     </div>
   )
 }

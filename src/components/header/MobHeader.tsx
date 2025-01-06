@@ -1,4 +1,4 @@
-import { IoMenu, IoSearchOutline } from "react-icons/io5";
+import {  IoSearchOutline } from "react-icons/io5";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { GoPerson } from "react-icons/go";
 import DrawerMenu from "../optimized/DrawerMenu";

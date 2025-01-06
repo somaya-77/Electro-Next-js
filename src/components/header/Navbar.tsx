@@ -4,8 +4,8 @@ import { LiaShoppingBagSolid } from "react-icons/lia";
 import { BiGitCompare } from "react-icons/bi";
 import { FaRegHeart } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
-import InputButton from '../form/InputButton';
-import DrawerMenu from '../optimized/DrawerMenu';
+// import InputButton from '../form/InputButton';
+// import DrawerMenu from '../optimized/DrawerMenu';
 
 const Navbar = () => {
     return (
@@ -13,10 +13,10 @@ const Navbar = () => {
             {/* logo */}
             <h1 className="title_h text-3xl"><b>electro</b></h1>
             <div className=" flex items-center gap-4 w-[55%]">
-                <DrawerMenu />
+                {/* <DrawerMenu />
                 <div className="w-full">
                     <InputButton />
-                </div>
+                </div> */}
             </div>
 
             <div className='flex items-center gap-8 pr-2'>

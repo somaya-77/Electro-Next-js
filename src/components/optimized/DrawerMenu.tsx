@@ -4,12 +4,6 @@ import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import SwipeableDrawer from '@mui/material/SwipeableDrawer';
 import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import { LiaShoppingBagSolid } from 'react-icons/lia';
 import { IoMenu } from 'react-icons/io5';
 import { menu } from '@/lib/contacts';
 import { Accordion, AccordionDetails, AccordionSummary, Typography } from '@mui/material';
@@ -28,15 +22,15 @@ export default function DrawerMenu() {
         setIsOpen(open);
     };
 
-    const menuItems = [
-        'Inbox',
-        'Starred',
-        'Send email',
-        'Drafts',
-        'All mail',
-        'Trash',
-        'Spam',
-    ];
+    // const menuItems = [
+    //     'Inbox',
+    //     'Starred',
+    //     'Send email',
+    //     'Drafts',
+    //     'All mail',
+    //     'Trash',
+    //     'Spam',
+    // ];
 
     const list = () => (
         <Box
