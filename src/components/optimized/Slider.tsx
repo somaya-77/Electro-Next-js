@@ -18,41 +18,41 @@ const Slide = () => {
         initialSlide: 0,
         responsive: [
             {
-                breakpoint: 1224, // الشاشات الكبيرة
+                breakpoint: 1224, 
                 settings: {
-                    slidesToShow: 4, // عرض 4 عناصر
+                    slidesToShow: 4, 
                     slidesToScroll: 4,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 1024, // الشاشات الكبيرة
+                breakpoint: 1024, 
                 settings: {
-                    slidesToShow: 3, // عرض 3 عناصر
+                    slidesToShow: 3, 
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 850, // الشاشات المتوسطة
+                breakpoint: 850, 
                 settings: {
-                    slidesToShow: 2, // عرض 2 عناصر
+                    slidesToShow: 2,
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 600, // الشاشات الصغيرة
+                breakpoint: 600, 
                 settings: {
-                    slidesToShow: 2, // عرض 2 عناصر
+                    slidesToShow: 2, 
                     slidesToScroll: 2
                 }
             },
             {
-                breakpoint: 480, // للموبايل
+                breakpoint: 480, 
                 settings: {
-                    slidesToShow: 1, // عرض 1 عنصر
+                    slidesToShow: 1, 
                     slidesToScroll: 1
                 }
             }
@@ -60,7 +60,7 @@ const Slide = () => {
     };
 
     return (
-        <div className="slider-container">
+        <div className="slider-container overflow-hidden">
             <Slider {...settings}>
                 {products.map(el => (
                     <div key={el.id} className="h-[410px]">

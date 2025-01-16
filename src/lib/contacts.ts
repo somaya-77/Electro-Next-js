@@ -10,10 +10,10 @@ import { MdOutlinePayment } from "react-icons/md";
 import { FaFacebook, FaWhatsapp, FaPinterest, FaLinkedin, FaInstagram, FaYoutube, FaWifi } from "react-icons/fa";
 
 export const linksHeader = [
-    { title: "Store Locator", Icon: IoLocationOutline, path: '' },
-    { title: "Track Your Order", Icon: LiaShippingFastSolid, path: '' },
-    { title: "Shop", Icon: HiOutlineShoppingBag, path: '' },
-    { title: "My Account", Icon: GoPerson, path: '' },
+    { title: "Store Locator", Icon: IoLocationOutline, path: '/storeLocator' },
+    { title: "Track Your Order", Icon: LiaShippingFastSolid, path: '/order' },
+    { title: "Shop", Icon: HiOutlineShoppingBag, path: '/shop' },
+    { title: "My Account", Icon: GoPerson, path: '/account' },
 ];
 
 
@@ -241,13 +241,10 @@ export const browseCategories = [
 ]
 
 export const cardShop = [
-    { img: '/assets/cameras-resized.webp', text1: 'CATCH HOTTEST', boldText: 'DEALS', text2: 'IN CAMERAS', btn: 'Shop now' },
-
-    { img: '/assets/desktop.webp', text1: 'THE NEW ', boldText: '360 DESKTOP', price: "749" },
-
-    { img: '/assets/laptop.webp', text1: 'TABLETS, SMARTPHONES', boldText: 'AND MORE', percentage: "70" },
-
-    { img: '/assets/360-camers.webp', text1: 'THE NEW ', boldText: '360 CAMERAS', percentage: "70" },
+    { img: '/assets/images/cameras-resized.webp', text1: 'CATCH HOTTEST', boldText: 'DEALS', text2: 'IN CAMERAS', btn: 'Shop now' },
+    { img: '/assets/images/laptop.webp', text1: 'SMARTPHONES', boldText: 'AND MORE', percentage: "70" },
+    { img: '/assets/images/desktop.webp', text1: 'THE NEW ', boldText: '360 DESKTOP', price: "749" },
+    { img: '/assets/images/360-camers.webp', text1: 'THE NEW ', boldText: '360 CAMERAS', percentage: "70" },
 ]
 
 export const companies = [
@@ -309,14 +306,14 @@ export const mobFooterIcons = [
 export const linksHeaderPages = [
     {
         title: "Home", links: [
-            // {
-            //     category: "Home Pages",
-            //     items: [
-            //         "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
-            //         "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
-            //         "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
-            //     ]
-            // },
+            {
+                category: "Home Pages",
+                items: [
+                    "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
+                    "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
+                    "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
+                ]
+            },
             {
                 category: "Shop Pages",
                 items: [
@@ -439,14 +436,14 @@ export const linksHeaderPages = [
     }
     ,{
         title: "Smart Phones", links: [
-            // {
-            //     category: "Home Pages",
-            //     items: [
-            //         "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
-            //         "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
-            //         "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
-            //     ]
-            // },
+            {
+                category: "Home Pages",
+                items: [
+                    "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
+                    "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
+                    "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
+                ]
+            },
             {
                 category: "Shop Pages",
                 items: [
@@ -576,36 +573,6 @@ export const linksHeaderPages = [
         ]
     },
     {
-        title: "GPS & Car", links: [
-            {
-                category: "Shop Pages",
-                items: [
-                    "Shop Grid", "Shop Grid Extended", "Shop List View", "Shop List View Small",
-                    "Shop Left Sidebar", "Shop Full width", "Shop Right Sidebar"
-                ]
-            },
-            {
-                category: "Product Categories",
-                items: [
-                    "4 Column Sidebar", "5 Column Sidebar", "6 Column Full width", "7 Columns Full width"
-                ]
-            },
-            {
-                category: "Static Pages",
-                items: [
-                    "About", "Contact v1", "Contact v2", "FAQ", "Store Directory",
-                    "Terms and Conditions", "404"
-                ]
-            },
-            {
-                category: "WooCommerce Pages",
-                items: [
-                    "Shop", "Cart", "Checkout", "My Account", "Track your Order", "Compare"
-                ]
-            }
-        ]
-    },
-    {
         title: "Cameras & Accessories", links: [
             {
                 category: "Shop Pages",
@@ -667,5 +634,91 @@ export const linksHeaderPages = [
     }
 ]
 
+// export const linksHeaderPages = [
+//     {
+//         title: "Home", links: [
+//             "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
+//             "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
+//             "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
+//         ]
+//     },
+//     {
+//         title: "About Us"
+//     },
+//     {
+//         title: "Blog", links: [
+//             "Blog v1", "Blog v2", "Blog v3"
+//         ]
+//     },
+//     {
+//         title: "Pages", links: [
+//             {
+//                 category: "Home Pages",
+//                 items: [
+//                     "Home v1", "Home v2", "Home v3", "Home v3.1", "Home v4", "Home v5",
+//                     "Home v6", "Home v7", "Home v8", "Home v9", "Home v10", "Home v11",
+//                     "Home v12", "Home v13", "Home v14", "Home v15", "Home v16", "Home v17"
+//                 ]
+//             },
+//             {
+//                 category: "Shop Pages",
+//                 items: [
+//                     "Shop Grid", "Shop Grid Extended", "Shop List View", "Shop List View Small",
+//                     "Shop Left Sidebar", "Shop Full width", "Shop Right Sidebar"
+//                 ]
+//             },
+//             {
+//                 category: "Product Categories",
+//                 items: [
+//                     "4 Column Sidebar", "5 Column Sidebar", "6 Column Full width", "7 Columns Full width"
+//                 ]
+//             },
+//             {
+//                 category: "Static Pages",
+//                 items: [
+//                     "About", "Contact v1", "Contact v2", "FAQ", "Store Directory",
+//                     "Terms and Conditions", "404"
+//                 ]
+//             },
+//             {
+//                 category: "Mobile Home Pages",
+//                 items: ["Home v1", "Home v2"]
+//             },
+//             {
+//                 category: "Single Product Pages",
+//                 items: [
+//                     "Single Product Extended", "Single Product Fullwidth", "Single Product Sidebar"
+//                 ]
+//             },
+//             {
+//                 category: "WooCommerce Pages",
+//                 items: [
+//                     "Shop", "Cart", "Checkout", "My Account", "Track your Order", "Compare"
+//                 ]
+//             },
+//             {
+//                 category: "Blog Pages",
+//                 items: [
+//                     "Blog v1", "Blog v3", "Blog v2", "Blog Full Width", "Single Blog Post"
+//                 ]
+//             },
+//             {
+//                 category: "Shop Columns",
+//                 items: [
+//                     "7 Columns Full width", "6 Columns Full width", "5 Columns Sidebar",
+//                     "4 Columns Sidebar", "3 Columns Sidebar"
+//                 ]
+//             },
+//             {
+//                 category: "Vendor Demo"
+//             }
+//         ]
+//     },
+//     {
+//         title: "Features"
+//     },
+//     {
+//         title: "Contact Us"
+//     },
+// ]
 
-							

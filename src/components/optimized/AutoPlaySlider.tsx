@@ -13,17 +13,15 @@ function AutoPlay() {
         slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
-        autoplaySpeed: 1000,
-        cssEase: "linear"
+        autoplaySpeed: 2000,
+        cssEase: "linear",
     };
     return (
-        <div className="slider-container">
+        <div className="slider-container px-10">
             <Slider {...settings}>
                 {companies.map((el, i) => (
-
-                    <Image key={i} src={el.img} alt={el.alt} width={100} height={30} className="px-10 cursor-pointer"/>
+                    <Image key={i} src={el.img} alt={el.alt} width={100} height={30} className=" cursor-pointer"/>
                 ))}
-
             </Slider>
         </div>
     );

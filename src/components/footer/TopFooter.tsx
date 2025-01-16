@@ -3,7 +3,7 @@ import { BsSend } from "react-icons/bs";
 
 export default function TopFooter() {
   return (
-    <div className='px-20 py-5 lg:flex-global-between hidden gap-4 bg-primary'>
+    <div className='px-10 xl:px-20 py-5 flex-global-between gap-4 bg-primary'>
       <div className="flex items-center gap-10 text-text_dark">
 
         <div className="flex items-center gap-4">

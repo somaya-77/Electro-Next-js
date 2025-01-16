@@ -5,10 +5,10 @@ import DrawerMenu from "../optimized/DrawerMenu";
 
 const MobHeader = () => {
   return (
-    <div className="flex-global-between bg-primary py-3 px-5">
-      <div className="flex-global-between gap-5">
+    <div className="flex-between bg-primary py-3 px-5 lg:hidden">
+      <div className="flex-between gap-5">
         <DrawerMenu />
-        <h1 className="title_h text-3xl"><b>electro</b></h1>
+        <h1 className="title_h text-2xl"><b>electro</b></h1>
       </div>
 
       <div className="flex items-center gap-4">

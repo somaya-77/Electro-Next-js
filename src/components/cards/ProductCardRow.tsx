@@ -10,20 +10,20 @@ interface props {
 }
 const ProductCardRow = ({ categories, title, img, price }: props) => {
     return (
-        <div className='flex-shrink-0  lg:w-[320px] flex-col gap-2 p-2 lg:p-5 cursor-pointer hover:shadow-xl group bg-white '>
+        <div className='flex-shrink-0 lg:w-[320px] flex_col gap-2 p-2 lg:p-5 cursor-pointer hover:shadow-xl group bg-white '>
 
             <div className='relative flex gap-2'>
-                <div className='max-h-[140px] flex_center'>
+                <div className='max-h-[140px] flex-center'>
                     <Image src={img} alt={title} width={160} height={160} />
                 </div>
 
                 <div className='flex_col'>
                     <div className='flex items-center'>
                         {categories.map((category, i) => (
-                            <>
+                            <div key={i}>
                                 {i > 0 && <span className='text-gray_dark'>,</span>}
-                                <p key={i} className='title text-xs text-gray_dark cursor-pointer hover:text-text_dark'>{category}</p>
-                            </>
+                                <p  className='title text-xs text-gray_dark cursor-pointer hover:text-text_dark'>{category}</p>
+                            </div>
                         ))}
 
                     </div>
@@ -31,10 +31,10 @@ const ProductCardRow = ({ categories, title, img, price }: props) => {
                         <h3 className='text-blue text-sm md:text-[15px] w-[80%] overflow-hidden line-clamp-2'>{title}</h3>
                     </div>
 
-                    <div className='flex-global-between mt-2'>
+                    <div className='flex-between mt-2'>
                         <p className='lg:text-xl text-text_dark'>${price}</p>
 
-                        <div className="bg-light_1 rounded-full flex_center size-9 cursor-pointer transition hover:bg-primary group-hover:bg-primary">
+                        <div className="bg-light_1 rounded-full flex-center size-9 cursor-pointer transition hover:bg-primary group-hover:bg-primary">
                             <BiCartDownload color='white' size={24} />
                         </div>
                     </div>

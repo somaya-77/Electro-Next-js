@@ -4,8 +4,7 @@ import Link from "next/link";
 
 const TopHeader = () => {
     return (
-        <div className="px-20 py-3 lg:flex justify-between bg-primary hidden">
-        {/* <div className="px-20 py-3 lg:flex justify-between border border-light_1 hidden"> */}
+         <div className="lg:px-10 xl:20px py-3 flex justify-between border-b border-light_1"> 
             <p className="title">Welcome to Worldwide Electronics Store</p>
 
             <div className="flex gap-4">

@@ -7,7 +7,7 @@ import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 
 
-const kufiArabic = Inter({ subsets: ['latin'], weight: ['300', '500'] })
+const kufiArabic = Inter({ subsets: ['latin'], weight: ['100','200','300', '500'] })
 
 export const metadata: Metadata = {
   title: "Create Next App",

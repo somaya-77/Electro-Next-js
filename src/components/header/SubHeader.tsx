@@ -5,16 +5,16 @@ import { FaChevronDown } from "react-icons/fa";
 
 const SubHeader = () => {
   return (
-    <div className='border-t border-gray_text relative'>
-      <div className='px-14 flex items-center'>
+    <div className='border-t border-gray_text relative bg-primary'>
+      <div className='flex items-center px-6 xl:px-9'>
         {linksHeaderPages.map((el, i) => (
-          <div key={i}  className=" group">
-            <div className='flex items-center gap-3 py-3 cursor-pointer hover:bg-dark_opacity px-5 border-r border-gray_text last:border-r-0 '>
-              <p className='title'>{el.title}</p>
-              <FaChevronDown size={12} />
+          <div key={i} className="group">
+            <div className='flex items-center gap-[4px] p-3 cursor-pointer hover:bg-bg_hover border-r border-gray_text group group-last:border-r-0'>
+              <p className='text-[10px] xl:text-sm title text-nowrap'>{el.title}</p>
+              <FaChevronDown size={12} color='#48525b'/>
             </div>
 
-            <div className='absolute bg-white z-100 w-[calc(100%-160px)] h-fit px-5 py-10 left-0 mx-20 top-11 shadow-md rounded-b-lg  grid-cols-4 gap-8 hidden group-hover:grid'>
+            <div className='absolute bg-white z-100 w-[calc(100%-160px)] px-5 py-10 left-0 mx-20 top-11 shadow-md rounded-b-lg gap-8 hidden group-hover:flex'>
               {el.links.map((link, j) => (
                 <div className='' key={j} >
                   <div className='pb-4'>

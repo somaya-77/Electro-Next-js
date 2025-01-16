@@ -3,7 +3,7 @@ import React from 'react'
 
 const MobFooter = () => {
     return (
-        <div className='col-center gap-6 w-full mt-8'>
+        <div className='col-center gap-6 w-full mt-8 lg:hidden'>
 
             {/* accordion */}
 

@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Top Header
 
-## Getting Started
+_link #Store locator => store page
+_link #Order => order page
+_link #Shop => shop page
+_link #MyAccount => Authentication page
 
-First, run the development server:
+-------------------------------------------------------------------
+## Mid Header
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+_link #Compare => Compare page
+_link #Wishlist => Wishlist page
+_link #Account => Account page
+_link #Cart => Cart page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+--------------------------------------------------------------------
+## Nav
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+_Home page => link home page & all links ## v3
+_TV & Audio page => link TV & Audio page & all links
+_Smart phone page => link smart phone page & all links
+_Laptops & Desktops page => link Laptops & Desktops page & all links
+_Gadgets page => link gadgets page & all links
+_Gps & Car page => link Gps & car page & all links
+_Cameras & Accessories page => link home page & all links
+_Movies & Games page => link Movies & Games page & all links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+## Header
+## Home Page
+-----------
+## Hero Section
 
-## Learn More
+_background
+_titles
+_slider images
+_shope card [link ==> shop page]
+_Purchasing Methods
 
-To learn more about Next.js, take a look at the following resources:
+_products = [
+    _Featured
+    _on sale
+    _Top rated
+] : each product => product page to product details product, add to cart, add to wishlist, add to compare
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+_Television Entertainment => [
+    _product cart => each product => product page to product details product, add to cart, add to compare.
+]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+_Laptops & computers => [
+    _product cart => each product => product page to product details product, add to cart, add to compare.
+]
 
-## Deploy on Vercel
+_Trending products => [
+    _product cart => each product => product page to product details product, add to cart, add to compare.
+]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+_Bestsellers = [
+    _Smart phone & tablets => Smart phone & tablets page
+    _Laptops & computers => Laptops & computers page
+    _Video cameras => Video cameras page
+] : each product => product page to product details product, add to cart, add to wishlist, add to compare
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Top category => each product => see all =[
+    same products at category and contain 4 design
+]
+
+_Recommendation => [
+    _product cart => each product => product page to product details product, add to cart, add to wishlist, add to compare.
+]
+
+_Two images at links page ...?!
+
+## Footer

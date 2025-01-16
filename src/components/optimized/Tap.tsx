@@ -15,7 +15,7 @@ export default function LabTabs() {
     };
 
     return (
-        <Box sx={{ typography: 'body1' }}>
+        <Box sx={{ typography: 'body1', marginTop: '30px' }}>
             <TabContext value={value}>
                 <Box sx={{ borderBottom: 1, borderColor: 'divider', display: 'flex', justifyContent: { xs: 'flex-start', lg: 'center' } }}>
                     <TabList
