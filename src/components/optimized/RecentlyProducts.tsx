@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import dynamic from "next/dynamic";
 import { products } from "@/lib/contacts";
-import ProductCard from "../cards/ProductCard";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -43,21 +42,21 @@ const RecentlyProducts = () => {
                 },
             },
             {
-                breakpoint: 850, // للشاشات المتوسطة (بين 850px و 1024px)
+                breakpoint: 850, 
                 settings: {
                     slidesToShow: 5,
                     slidesToScroll: 5,
                 },
             },
             {
-                breakpoint: 600, // للشاشات الصغيرة (بين 600px و 850px)
+                breakpoint: 600, 
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                 },
             },
             {
-                breakpoint: 480, // لشاشات الهواتف الصغيرة (أقل من 600px)
+                breakpoint: 480, 
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 2,

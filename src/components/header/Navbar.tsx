@@ -5,7 +5,6 @@ import { BiGitCompare } from "react-icons/bi";
 import { FaRegHeart } from "react-icons/fa6";
 import { GoPerson } from "react-icons/go";
 import { IconButton } from '@mui/material';
-import InputButton from '../form/InputButton';
 import DrawerMenu from '../optimized/DrawerMenu';
 
 const Navbar = () => {
