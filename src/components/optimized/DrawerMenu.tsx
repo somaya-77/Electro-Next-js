@@ -74,7 +74,7 @@ export default function DrawerMenu() {
             <IoMenu
                 onClick={toggleDrawer(true)}
                 color="#36414b"
-                size={30}
+                size={26}
                 className="cursor-pointer"
             />
             <SwipeableDrawer

@@ -20,6 +20,7 @@ export default {
         light_2: "#e0e0e0",
         light_3: "#eaeaea",
         blue:"#34bcec",
+        dark_blue: "#0062BD",
         red:"#dc3545",
         black:"#36414b",
         text_dark: "#333e48",

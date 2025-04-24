@@ -93,7 +93,7 @@ const Hero = () => {
                                             animate={{ skewY: 0 }}
                                             transition={{ duration: 2, delay: 0.7 }}
                                         >
-                                            <h3 className="text-text_dark text-5xl font-extralight">
+                                            <h3 className="text-text_dark text-5xl font-extra-light">
                                                 {slide.title}
                                                 <br />
                                                 {slide.bold}
@@ -119,6 +119,7 @@ const Hero = () => {
                                             alt={slide.title}
                                             width={700}
                                             height={1400}
+                                            className="h-auto"
                                         />
                                     </motion.div>
                                 </>
